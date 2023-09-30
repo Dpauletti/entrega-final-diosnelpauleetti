@@ -1,0 +1,270 @@
+/*EXTEND*/
+.btnFooter, .btnRegistro {
+  background-color: blue;
+  color: azure;
+  font-weight: 500;
+}
+.btnFooter:hover, .btnRegistro:hover {
+  color: blue;
+}
+
+.btnRegistro {
+  margin: 5px;
+}
+.btnRegistro:hover {
+  color: rgb(26, 26, 26);
+}
+
+/*MIXINS*/
+/*HEADER*/
+.logoJoli {
+  width: 250px;
+}
+
+.barraNav {
+  background-color: rgb(155, 155, 155);
+}
+
+.tituloNav {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: blue;
+  font-size: 20px;
+  margin-left: 15px;
+}
+
+/*INDEX*/
+.contenedorInicio {
+  background-image: url(../img/banner.webp);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 400px;
+  margin-bottom: 10px;
+}
+
+.cardImg {
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 250px;
+}
+
+.tituloCards {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+.contenedorTitulos {
+  background-color: blue;
+  color: rgb(238, 238, 238);
+  text-align: center;
+  margin-top: 20px;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-family: sans-serif;
+  font-weight: 600;
+}
+
+/*EMPRESA*/
+.imagenInterior {
+  width: 100%;
+  height: 350px;
+  margin-bottom: 10px;
+}
+
+.parrafoEmpresa {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+  font-weight: 500;
+  padding: 15px;
+  margin: 30px;
+}
+
+/*PRODUCTOS*/
+.contenedorProductos {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: auto;
+  margin-bottom: 10px;
+}
+.contenedorProductos img {
+  position: relative;
+  height: 250px;
+  width: 200px;
+  border-radius: 10px;
+  box-shadow: 0px 15px 20px rgba(0, 0, 0, 0.5);
+}
+
+.descripcionCards {
+  text-align: center;
+}
+
+.fondoRegistrarse {
+  background-color: rgb(211, 211, 211);
+  box-shadow: 0px 0px 15px;
+  margin: 25px;
+}
+
+.logoRegistro {
+  width: 300px;
+}
+
+/*FORMULARIO DE CONTACTO*/
+.formContacto {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  align-items: center;
+  justify-content: center;
+  padding: 25px;
+  height: auto;
+}
+
+.contenedorLabel {
+  background-color: gray;
+  min-width: 200px;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0px 15px 30px rgba(0, 0, 0, 0.5);
+  border-radius: 10px;
+  margin: 10px;
+  padding: 30px;
+  font-size: 16px;
+  color: rgb(26, 26, 26);
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+}
+
+label {
+  font-size: 16px;
+  color: black;
+  font-weight: 700;
+  border-radius: 10px;
+  outline: none;
+}
+
+input,
+textarea {
+  border-radius: 7px;
+  outline: none;
+}
+
+.btnForm {
+  background-color: blue;
+  color: rgb(238, 238, 238);
+  margin: 5px;
+  margin-bottom: 3px;
+  width: 130px;
+  text-align: center;
+  border-radius: 6px;
+  padding: 5px;
+  font-size: 15px;
+}
+.btnForm:hover {
+  background-color: rgb(0, 0, 141);
+}
+
+.infoContacto {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+  color: blue;
+  border-radius: 5px;
+  padding: 20px;
+  margin: 15px;
+  text-align: center;
+  font-weight: 500;
+}
+
+h4 {
+  text-align: center;
+  color: blue;
+  font-weight: 500;
+}
+
+.descripcionContacto {
+  text-align: left;
+  list-style: none;
+  font-size: 16px;
+  font-weight: 700;
+  color: rgb(26, 26, 26);
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.iconos {
+  width: 35px;
+}
+
+@media (max-width: 560px) {
+  .formContacto {
+    display: grid;
+    grid-template-columns: 1fr;
+  }
+}
+.contenedorIframe {
+  margin-bottom: 30px;
+}
+
+/*FOOTER*/
+footer {
+  background-color: rgb(155, 155, 155);
+}
+
+.tituloFooter {
+  color: blue;
+}
+
+.finalPagina {
+  text-align: center;
+  background-color: rgb(0, 0, 73);
+  color: azure;
+}
+
+/*BOTON DE WHATSAPP*/
+.whatsapp {
+  width: 70px;
+  position: fixed;
+  bottom: 15px;
+  right: 25px;
+  cursor: pointer;
+}
+
+/*PAGINA DE ERROR*/
+.bodyError {
+  background-color: lightblue;
+}
+
+.imgError {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.imagen404 {
+  width: 70%;
+}
+
+.btnError {
+  box-shadow: 0px 10px 15px rgba(0, 0, 0, 0.5);
+  color: blue;
+  cursor: pointer;
+  background-color: yellow;
+  padding: 8px;
+  border-radius: 7px;
+}
+.btnError:hover {
+  background-color: rgb(196, 196, 33);
+}
+
+/*# sourceMappingURL=main.css.map */

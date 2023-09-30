@@ -1,0 +1,25 @@
+/*FOOTER*/
+
+footer {
+    background-color: $mainColor;
+}
+
+.tituloFooter {
+    color: $secondaryColor;
+}
+
+.finalPagina {
+    text-align: center;
+    background-color: rgb(0, 0, 73);
+    color: azure;
+}
+
+/*BOTON DE WHATSAPP*/
+
+.whatsapp {
+    width: 70px;
+    position: fixed;
+    bottom: 15px;
+    right: 25px;
+    cursor: pointer;
+}

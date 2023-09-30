@@ -1,0 +1,29 @@
+/*PAGINA DE ERROR*/
+
+.bodyError {
+    background-color: $keyColor;
+}
+
+.imgError {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.imagen404 {
+    width: 70%;
+}
+
+.btnError {
+    @include sombras;
+    cursor: pointer;
+    background-color: yellow;
+    padding: 8px;
+    border-radius: 7px;
+
+    &:hover {
+        background-color: rgb(196, 196, 33);
+    }
+}

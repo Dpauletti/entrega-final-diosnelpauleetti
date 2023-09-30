@@ -1,0 +1,99 @@
+/*FORMULARIO DE CONTACTO*/
+
+.formContacto {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    align-items: center;
+    justify-content: center;
+    padding: 25px;
+    height: auto;
+}
+
+.contenedorLabel {
+    background-color: gray;
+    min-width: 200px;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0px 15px 30px rgb(0, 0, 0, 0.5);
+    border-radius: 10px;
+    margin: 10px;
+    padding: 30px;
+    font-size: 16px;
+    color: $black;
+    font-weight: $textBold;
+    border-radius: 10px;
+    outline: none;
+}
+
+label {
+    font-size: 16px;
+    color: black;
+    font-weight: $textBold;
+    border-radius: 10px;
+    outline: none;
+}
+
+input,
+textarea {
+    border-radius: 7px;
+    outline: none;
+}
+
+.btnForm {
+    background-color: $secondaryColor;
+    color: $white;
+    margin: 5px;
+    margin-bottom: 3px;
+    width: 130px;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px;
+    font-size: 15px;
+
+    &:hover {
+        background-color: rgb(0, 0, 141);
+    }
+}
+
+.infoContacto {
+    @include sombras;
+    border-radius: 5px;
+    padding: 20px;
+    margin: 15px;
+    text-align: center;
+    font-weight: $textRegular;
+}
+
+h4 {
+    text-align: center;
+    color: $secondaryColor;
+    font-weight: $textRegular;
+}
+
+.descripcionContacto {
+    text-align: left;
+    list-style: none;
+    font-size: 16px;
+    font-weight: $textBold;
+    color: $black;
+    text-decoration: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.iconos {
+    width: 35px;
+}
+
+@media (max-width: 560px) {
+    .formContacto {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.contenedorIframe {
+    margin-bottom: 30px;
+}

@@ -1,0 +1,32 @@
+/*PRODUCTOS*/
+
+.contenedorProductos {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    margin-bottom: 10px;
+
+    img {
+        position: relative;
+        height: 250px;
+        width: 200px;
+        border-radius: 10px;
+        box-shadow: 0px 15px 20px rgb(0, 0, 0, 0.5);
+    }
+}
+
+.descripcionCards {
+    text-align: center;
+}
+
+.fondoRegistrarse {
+    background-color: rgb(211, 211, 211);
+    box-shadow: 0px 0px 15px;
+    margin: 25px;
+}
+
+.logoRegistro {
+    width: 300px;
+}
