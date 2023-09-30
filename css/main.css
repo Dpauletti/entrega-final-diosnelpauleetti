@@ -1,21 +1,24 @@
 /*EXTEND*/
-.btnFooter, .btnRegistro {
+.btnFooter,
+.btnRegistro {
   background-color: blue;
   color: azure;
   font-weight: 500;
 }
-.btnFooter:hover, .btnRegistro:hover {
+
+.btnFooter:hover,
+.btnRegistro:hover {
   color: blue;
 }
 
 .btnRegistro {
   margin: 5px;
 }
+
 .btnRegistro:hover {
   color: rgb(26, 26, 26);
 }
 
-/*MIXINS*/
 /*HEADER*/
 .logoJoli {
   width: 250px;
@@ -94,6 +97,7 @@
   height: auto;
   margin-bottom: 10px;
 }
+
 .contenedorProductos img {
   position: relative;
   height: 250px;
@@ -167,6 +171,7 @@ textarea {
   padding: 5px;
   font-size: 15px;
 }
+
 .btnForm:hover {
   background-color: rgb(0, 0, 141);
 }
@@ -210,6 +215,7 @@ a {
     grid-template-columns: 1fr;
   }
 }
+
 .contenedorIframe {
   margin-bottom: 30px;
 }
@@ -263,6 +269,7 @@ footer {
   padding: 8px;
   border-radius: 7px;
 }
+
 .btnError:hover {
   background-color: rgb(196, 196, 33);
 }

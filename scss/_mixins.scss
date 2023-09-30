@@ -3,17 +3,19 @@
     background-color: $secondaryColor;
     color: azure;
     font-weight: $textRegular;
-    &:hover{
+
+    &:hover {
         color: $secondaryColor
     }
 }
 
 .btnRegistro {
     @extend .btnFooter;
-        margin: 5px;
-        &:hover{
-            color: $black;
-        }
+    margin: 5px;
+
+    &:hover {
+        color: $black;
+    }
 
 }
 
