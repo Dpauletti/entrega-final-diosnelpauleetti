@@ -38,7 +38,8 @@ Cuando empece a trabajar con Git y GitHub fue todo un poco mas sencillo por que 
 
 Por ultimo aprendi a subirlo a un servidor para que cualquiera tenga acceso a mi proyecto. A continuacion dejo algunos links para que puedan ver mi proyecto, el cual costo mucho trabajo y horas de codigo, pero fue un camino muy lindo y de mucho aprendizaje
 
-https://dpauletti.github.io/entrega-final-diosnelpauleetti/
-https://github.com/Dpauletti/entrega-final-diosnelpauleetti.git
+- https://dpauletti.github.io/entrega-final-diosnelpauleetti/
+- https://github.com/Dpauletti/entrega-final-diosnelpauleetti.git
+- https://jolipack.netlify.app/
 
 
